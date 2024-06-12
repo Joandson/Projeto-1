@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de site para demostrativo</title>
+
+    <style>
+        .imagem-redimensionada {
+            width: 300px;
+            height: 200px;
+        }
+        .imagem-responsiva {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    </style>
+
+    
+
+   <link rel="stylesheet" href="css/styles.css">
+<!-- Clicando Ctrl mais Clique do mause, cria a pagina styles.css -->
+
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Sobre Nós</a></li>
+                    <li><a href="services.html">Serviços</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    </html>
+</head>
+
+<body>
+    <main>
+        <section class="hero">
+            <h1>Bem-vindo à Clínica Odontológica</h1>
+            <p>Sua saúde bucal em boas mãos.</p>
+        </section>
+
+        <img src="imagens/Odontologia.jpg"  style="width: 70%;" alt="Uma pessoa sorrindo.">
+    </main>
+    <footer>
+        <p>&copy; 2024 Clínica Odontológica. Todos os direitos reservados.</p>
+    </footer>
+
+        <!-- Usando Atributos HTML -->
+        <h2>Imagem Redimensionada com Atributos HTML</h2>
+        <img src="imagens/Odontologia.jpg" width="300" height="200" alt="Exemplo de Atributos HTML">
+    
+        <!-- Usando CSS Inline -->
+        <h2>Imagem Redimensionada com CSS Inline</h2>
+        <img src="imagens/Odontologia.jpg" style="width: 300px; height: 200px;" alt="Exemplo de CSS Inline">
+    
+        <!-- Usando Classe CSS -->
+        <h2>Imagem Redimensionada com Classe CSS</h2>
+        <img src="imagens/Odontologia.jpg" class="imagem-redimensionada" alt="Exemplo de Classe CSS">
+    
+        <!-- Usando Percentagem para Responsividade -->
+        <h2>Imagem Responsiva com Percentagem</h2>
+        <img src="imagens/Odontologia.jpg" style="width: 50%;" alt="Exemplo de Percentagem">
+    
+        <!-- Usando Object-Fit para Manter Proporção -->
+        <h2>Imagem Responsiva com Object-Fit</h2>
+        <img src="imagens/Odontologia.jpg" class="imagem-responsiva" alt="Exemplo de Object-Fit">
+    
+
+</body>
+</html>
