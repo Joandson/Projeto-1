@@ -3,20 +3,16 @@
     color: #2e93e6;
 }
 body {
-    
     background-color: black;
-    background-image: url('Onda fundo preto.jpg')
-    background-size: cbackground-repeat: no-repeat;
-    background-position: center;
+    background-size: cover; /* Faz a imagem de fundo cobrir toda a página */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-position: center; /* Centraliza a imagem de fundo */
     color: white; /* Cor do texto para ficar legível no fundo preto */
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
-
 }
-
 header {
     background: #333;
     color: white;
@@ -58,10 +54,8 @@ header ul li a {
     text-decoration: none;
     font-size: 16px;
 }
-
 .hero {
-    height: 100vh;
-    background: url('../imagens/hero-bg.jpg') no-repeat center center/cover;
+    height: 110vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,4 +79,15 @@ header ul li a {
 }
 
 .btn {
-   
+    background: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
