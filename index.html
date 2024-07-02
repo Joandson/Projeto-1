@@ -3,44 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clínica Odontológica</title>
+    <title>Modelo de Site</title>
     <link rel="stylesheet" href="css/styles.css">
-    <style>
-       body {
-        height: 98px;
-        background-image: linear-gradient( rgb(245, 245, 238) rgb(98, 113, 243)
-    
-    );
-       }
-    </style>
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre Nós</a></li>
-                <li><a href="services.html">Serviços</a></li>
-                <li><a href="contact.html">Contato</a></li>
-            </ul>
+            <div class="container">
+                <a href="index.html" class="logo">SuaMarca</a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Sobre Nós</a></li>
+                    <li><a href="services.html">Serviços</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
         <section class="hero">
-            <h1>Bem-vindo à Clínica Odontológica</h1>
-            <p>Sua saúde bucal em boas mãos.</p>
+            <div class="hero-content">
+                <h1>Bem-vindo ao Nosso Site</h1>
+                <p>Oferecemos os melhores serviços para você</p>
+                <a href="services.html" class="btn">Saiba Mais</a>
+            </div>
         </section>
-<pictu>
-            <img src="imagens/Odontologia.jpg" class="imagem-centralizada" alt="Uma pessoa sorrindo.">
-</pictu>
-
-        <div class="whatsapp-button">
-            <a href="https://wa.me/SEUNUMERO" target="_blank">
-              <img src="imagens/WhatsApp Icon.png" alt="WhatsApp Icon" width="24" height="24">
-                Contate-nos no WhatsApp
-            </a>
-        </div>
     </main>
-
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SuaMarca. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>

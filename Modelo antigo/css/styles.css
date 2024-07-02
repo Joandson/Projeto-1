@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* para evitar bugs use a regra por meio do @ */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 { 
+    margin: auto;
+    /* width: 1000px; */
+    height: 50px;
+  /* background-color: darkcyan;  */
+    border-width: 2px;
+    border-style: solid;
+    border-color: #1747a7;
+    padding: 20px;
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color: aqua;
+    margin: 50px;
+}
+
+p {
+    background-color: #0044cc69; 
+}
+    
+     
+     
+
+}
+header {
+    background-color: #0044cc;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+.hero h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+.hero p {
+    font-size: 1.2em;
+}
+.imagem-centralizada {
+    display: block;
+    margin: 20px auto;
+    width: 70%;
+}
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.whatsapp-button {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.whatsapp-button a {
+    background-color: #25d366;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+.whatsapp-button a img {
+    margin-right: 10px;
+}
+
