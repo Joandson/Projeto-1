@@ -2,11 +2,11 @@
 .dev-joandson {
     color: #2e93e6;
 }
+
+
 body {
     background-color: black;
-    background-size: cover; /* Faz a imagem de fundo cobrir toda a página */
-    background-repeat: no-repeat; /* Evita que a imagem se repita */
-    background-position: center; /* Centraliza a imagem de fundo */
+    background-image: url('preto\ e\ azul\ minimalista.jpg');
     color: white; /* Cor do texto para ficar legível no fundo preto */
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -16,7 +16,7 @@ body {
 header {
     background: #333;
     color: white;
-    padding: 10px 0;
+    padding: 9px 0;
     position: fixed;
     width: 100%;
     top: 0;
@@ -65,7 +65,7 @@ header ul li a {
 }
 
 .hero-content {
-    max-width: 700px;
+    max-width: 1000px;
 }
 
 .hero h1 {
